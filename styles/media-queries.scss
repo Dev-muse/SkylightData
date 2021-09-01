@@ -1,0 +1,34 @@
+
+// Header Section:
+/* Mobile <= 600px */
+@media screen and (max-width: 600px) {
+  .cta--btn {
+    display: none;
+  }
+  header {
+    .logo {
+      margin-bottom: 0.5rem;
+      height: 5rem;
+    }
+    nav {
+      display: block;
+      text-align: center;
+      ul {
+        justify-content: center;
+        border-bottom: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        -webkit-border-radius: 1.5rem;
+        -moz-border-radius: 1.5rem;
+        -ms-border-radius: 1.5rem;
+        -o-border-radius: 1.5rem;
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+    .cta {
+      display: block;
+    }
+  }
+}
